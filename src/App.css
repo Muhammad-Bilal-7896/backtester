@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.img-ad{
+  width: 400px;
+  height: 300px;
+}
+.deletebtn
+{
+  font-size: 20px;
+  background-color: #c40031;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  height: 45px;
+  width: fit-content;
+  margin-top: 10px;
+}
+.border1px
+{
+
+  border: 2px solid rgb(63, 63, 63);
+  border-radius: 10px;
+}
+.adminInput {
+  width: 280px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.rendered-list {
+  margin-left: 1%;
+  margin-top: 10px;
+}
+
+.list {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.border {
+  border: 1px solid rgb(48, 48, 48);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 2px rgb(107, 107, 107);
+  border-radius: 5px 10px 5px 10px;
+}
+
+.adminInput::-moz-focus-inner {
+  border: #0275d8;
+  transition: 1s linear;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+  font-size: 45px;
+}
+
+.btn-login {
+  font-size: 25px;
+  background-color: #0275d8;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  height: 45px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.btn-logout {
+  font-size: 25px;
+  background-color: #d80237;
+  color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  height: 45px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
